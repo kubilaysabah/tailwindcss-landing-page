@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en" class="font-[Inter,_'sans-serif']">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WASK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="py-[28px]">
+      <div class="min-[1590px]:max-w-[1590px] mx-auto">
+        <div class="flex flex-wrap items-center">
+          <div class="lg:w-auto">
+            <a href="/">
+              <svg
+                width="120"
+                height="33"
+                viewBox="0 0 120 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_755_5139)">
+                  <path
+                    d="M35.679 32.0551C33.6255 31.9587 32.0854 31.3157 31.0908 29.3223C29.294 25.657 27.3047 22.0561 25.3795 18.423C25.2833 18.2301 25.2191 17.8764 24.9624 17.9086C24.7057 17.9086 24.6737 18.2622 24.5453 18.4552C22.556 22.249 20.5346 26.0107 18.5453 29.8367C18.0319 30.8334 17.2619 31.4443 16.2031 31.7658C14.9838 32.1194 13.7646 32.1516 12.5774 31.7658C11.5507 31.4443 10.7485 30.8655 10.2352 29.8367C8.82339 27.1038 7.31537 24.4031 5.93569 21.6703C4.84478 19.5161 5.61483 17.0083 7.66831 15.9152C9.52927 14.9507 11.679 15.5615 12.7378 17.362C13.1549 18.0693 13.4758 18.7767 13.8929 19.484C14.0533 19.7412 14.0854 20.2235 14.4384 20.1913C14.695 20.1913 14.7913 19.7734 14.9196 19.5161C16.171 17.1369 17.4223 14.7256 18.7057 12.3464C19.3154 11.1568 19.9571 9.96722 20.5667 8.77762C21.6897 6.65564 23.5186 5.78755 25.8929 6.17337C27.4651 6.43058 28.556 7.20221 29.294 8.64901C31.1229 12.2821 33.048 15.8509 34.941 19.484C35.0052 19.6126 35.1015 19.7734 35.1656 19.902C35.3902 20.3842 35.6148 20.3521 35.8394 19.8698C36.4491 18.6802 37.0587 17.4906 37.7004 16.301C40.2031 11.6391 42.6737 6.945 45.2084 2.28308C46.2993 0.257546 48.6737 -0.546236 50.7271 0.386151C52.7485 1.28639 53.5827 3.50481 52.5239 5.49819C48.1924 13.7289 43.8287 21.9275 39.4972 30.1261C38.695 31.7015 37.187 31.9587 35.679 32.0551Z"
+                    fill="#140B46"
+                  />
+                  <path
+                    d="M75.1125 22.7634C75.1125 24.6925 75.1125 26.2357 75.1125 27.8111C75.1125 29.4187 74.5992 30.8012 73.027 31.4442C71.4227 32.0872 69.9788 31.7979 68.8238 30.4797C68.4708 30.0939 68.2141 30.2546 67.8612 30.4475C63.1446 32.7946 58.5564 32.5695 54.2569 29.4508C50.0216 26.3643 48.3211 20.8021 49.7008 15.4329C50.9521 10.5459 55.1232 6.9128 60.1927 6.17332C67.3478 5.14448 73.5403 9.61351 74.8879 16.6868C75.305 18.8088 74.9842 20.9951 75.1125 22.7634ZM68.0858 18.6159C68.182 16.7511 67.2837 15.0149 65.4869 13.7289C62.9842 11.9284 59.2943 12.5714 57.4013 15.1114C55.412 17.7799 55.8291 21.8953 58.3639 23.8887C60.3211 25.4319 62.535 25.6891 64.7489 24.6281C67.0911 23.535 68.0858 21.5416 68.0858 18.6159Z"
+                    fill="#140B46"
+                  />
+                  <path
+                    d="M87.5936 31.9266C84.385 31.9587 81.6898 31.2835 79.2513 29.676C78.6738 29.2902 78.1604 28.8079 77.6792 28.3256C76.3316 26.911 76.3316 24.9176 77.6792 23.5029C78.9305 22.1847 81.2407 22.0561 82.5241 23.3743C84.4492 25.3677 86.7915 25.4963 89.262 25.0783C89.5187 25.0462 89.7754 24.9497 90 24.8211C90.4171 24.5961 90.7701 24.3067 90.7701 23.7923C90.738 23.31 90.353 23.1171 90 22.9564C88.6845 22.2812 87.2406 22.1526 85.8289 21.8632C84 21.5095 82.2353 20.963 80.6952 19.902C76.3957 17.0084 76.2995 10.9318 80.5669 7.97386C84.6417 5.1124 92.0535 5.33746 95.8396 9.54927C96.4492 10.2245 96.9947 10.9639 97.0909 11.9285C97.2193 13.2788 96.738 14.372 95.5829 15.0793C94.3636 15.8509 93.0802 15.7545 91.861 15.1114C91.3797 14.8542 91.0267 14.4363 90.6417 14.0826C89.3904 12.8609 86.6952 12.4429 85.1551 13.1824C84.7701 13.3431 84.4492 13.5682 84.4492 14.0505C84.4492 14.5006 84.8342 14.6613 85.1872 14.8221C86.5669 15.4651 88.0749 15.5616 89.5508 15.8831C91.3476 16.2689 93.0481 16.8476 94.5882 17.8765C98.7594 20.7701 98.8877 26.7824 94.8128 29.8046C92.5669 31.3478 90.0321 31.9909 87.5936 31.9266Z"
+                    fill="#140B46"
+                  />
+                  <path
+                    d="M106.428 13.3431C108.225 11.7355 109.861 10.2887 111.497 8.80977C112.203 8.16674 112.909 7.52372 113.647 6.88069C115.123 5.59464 117.08 5.62679 118.3 7.0093C119.519 8.35965 119.391 10.2566 117.915 11.5748C115.412 13.8254 112.877 16.0438 110.342 18.2622C109.54 18.9696 109.508 19.0017 110.342 19.6769C112.973 21.8953 115.604 24.1459 118.235 26.3644C119.23 27.2003 119.904 28.197 119.647 29.5795C119.166 32.0551 116.407 33.084 114.449 31.4443C112.011 29.4187 109.637 27.3611 107.198 25.3355C107.005 25.1748 106.845 24.8854 106.62 24.9819C106.364 25.0783 106.492 25.3998 106.492 25.6249C106.492 26.718 106.492 27.8112 106.492 28.9043C106.46 30.8012 105.112 32.1516 103.251 32.1837C101.391 32.1837 100.011 30.8334 100.011 28.9365C99.9788 22.3455 100.011 15.7544 100.011 9.16343C100.011 7.23436 101.358 5.884 103.219 5.884C105.112 5.884 106.46 7.23436 106.492 9.19558C106.46 10.5459 106.428 11.7998 106.428 13.3431Z"
+                    fill="#140B46"
+                  />
+                  <path
+                    d="M0 10.353C0 7.90952 2.02139 5.91614 4.45989 5.94829C6.80214 5.98044 8.82353 7.97385 8.82353 10.3209C8.85561 12.7644 6.80214 14.8221 4.36364 14.8221C1.9893 14.7899 0 12.7322 0 10.353Z"
+                    fill="#140B46"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_755_5139">
+                    <rect width="120" height="32.4728" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+          <div class="lg:flex-1 lg:ml-[70px]">
+            <nav>
+              <ul class="flex flex-wrap items-center lg:space-x-[20px]">
+                <li class="lg:w-auto">
+                  <a href="" class="text-[20px] font-medium text-[#140B46]"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="lg:w-auto">
+                  <a href="" class="text-[20px] font-medium text-[#140B46]"
+                    >Features</a
+                  >
+                </li>
+                <li class="lg:w-auto">
+                  <a href="" class="text-[20px] font-medium text-[#140B46]"
+                    >Integrations</a
+                  >
+                </li>
+                <li class="lg:w-auto">
+                  <a href="" class="text-[20px] font-medium text-[#140B46]"
+                    >Free Tools</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="lg:w-auto">
+            <div class="flex flex-wrap lg:space-x-[20px]">
+              <div class="lg:w-[145px]">
+                <button
+                  class="transition duration-150 ease-out hover:ease-in border font-bold text-[20px] border-[#140B46] text-[#140B46] py-[12px] rounded-[4px] w-full hover:bg-[#140B46] hover:text-white"
+                >
+                  Login
+                </button>
+              </div>
+              <div class="lg:w-[145px]">
+                <button
+                  class="transition duration-150 ease-out hover:ease-in border border-[#140B46] bg-[#140B46] font-bold text-[20px] text-white py-[12px] rounded-[4px] w-full hover:bg-white hover:text-[#140B46] hover:border-[#140B46]"
+                >
+                  Join
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <article
+          class="min-[1680px]:max-w-[1680px] lg:py-[65px] rounded-[8px] mx-auto bg-[#E7E4F6] text-center"
+        >
+          <div class="lg:max-w-[783px] lg:mx-auto">
+            <small
+              class="text-[18px] font-medium text-[#140B46] lg:mb-[30px] flex items-center justify-center space-x-2"
+            >
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.333 2L15.423 8.26L22.333 9.27L17.333 14.14L18.513 21.02L12.333 17.77L6.15301 21.02L7.33301 14.14L2.33301 9.27L9.24301 8.26L12.333 2Z"
+                  fill="#AEA3E6"
+                  stroke="#140B46"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>Always stay one step ahead of your competitors</span>
+            </small>
+            <h1
+              class="lg:text-[60px] text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#140B46] to-[#5721D4]"
+            >
+              Competitor Analysis Tool
+            </h1>
+            <p
+              class="text-[#11093E] lg:text-[20px] lg:leading-[36px] lg:mb-[24px]"
+            >
+              Compare your competitors' website traffic or Google and Facebook
+              ads and much more with the WASK competitor analysis tool.
+            </p>
+            <button
+              class="border border-[#140B46] bg-[#140B46] flex items-center space-x-2 justify-center font-bold text-[20px] text-white py-[12px] rounded-[4px] lg:w-[209px] mx-auto"
+            >
+              <span>Try For Free</span>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 8H15M15 8L8 1M15 8L8 15"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </article>
+      </section>
+      <section
+        class="min-[1680px]:max-w-[1680px] mx-auto flex flex-wrap lg:space-x-[24px] lg:mt-[64px]"
+      >
+        <div class="bg-[#FBFBFF] rounded-[8px] lg:p-[48px_50px] lg:flex-1">
+          <h3
+            class="text-[#260E5E] text-[24px] font-semibold lg:leading-[32px]"
+          >
+            Monthly traffic and traffic sources
+          </h3>
+          <div
+            class="bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mx-[15px] lg:mt-[40px]"
+          ></div>
+          <div
+            class="mt-[20px] flex flex-wrap items-center justify-between text-[18px] border-[2px] border-[#B3FC72] bg-[#DCFDC5] rounded-[8px] text-[#140B46] lg:p-[10px_33px]"
+          >
+            <span>Direct</span>
+            <div>
+              <div
+                class="flex flex-wrap items-center font-bold lg:space-x-[25px]"
+              >
+                <span>38 %</span>
+                <span>340 K</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mx-[15px] lg:mt-[20px]"
+          ></div>
+          <div
+            class="bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mx-[15px] lg:mt-[20px]"
+          ></div>
+          <div
+            class="mt-[20px] flex flex-wrap items-center justify-between text-[18px] border-[2px] border-[#FDAFA6] bg-[#FEE7E5] rounded-[8px] text-[#140B46] lg:p-[10px_33px]"
+          >
+            <span>Social</span>
+            <div>
+              <div
+                class="flex flex-wrap items-center font-bold lg:space-x-[25px]"
+              >
+                <span>38 %</span>
+                <span>340 K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#FBFBFF] rounded-[8px] lg:p-[48px_50px] lg:w-auto">
+          <h3
+            class="text-[#260E5E] text-[24px] font-semibold lg:leading-[32px]"
+          >
+            Filter by device and location
+          </h3>
+          <div class="flex flex-wrap lg:mt-[40px] lg:space-x-[32px]">
+            <div class="relative w-full lg:w-[141px]">
+              <div
+                class="flex items-center space-x-[12px] pt-[28px] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-[20px] before:rounded-[8px] before:bg-[#F1EEFF]"
+              >
+                <strong class="lg:text-[36px] font-bold">37 %</strong>
+                <svg
+                  width="41"
+                  height="41"
+                  viewBox="0 0 41 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="41" height="41" rx="20.5" fill="#DCFDC5" />
+                  <path
+                    d="M21.121 28.3687V13.8738M21.121 13.8738L13.8735 21.1212M21.121 13.8738L28.3685 21.1212"
+                    stroke="#8AE102"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="relative w-full lg:flex-1 lg:w-auto">
+              <div
+                class="flex items-center justify-between space-x-[12px] pt-[28px] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-[20px] before:rounded-[8px] before:bg-[#F1EEFF]"
+              >
+                <strong class="lg:text-[36px] font-bold"
+                  >+240
+                  <sub class="text-[16px] font-medium">country</sub></strong
+                >
+                <div>
+                  <div class="flex items-center -space-x-4">
+                    <div
+                      class="lg:w-[41px] lg:h-[41px] border-[3px] border-white rounded-full bg-[#BCECFF]"
+                    ></div>
+                    <div
+                      class="lg:w-[41px] lg:h-[41px] border-[3px] border-white rounded-full bg-[#DCFDC5]"
+                    ></div>
+                    <div
+                      class="lg:w-[41px] lg:h-[41px] border-[3px] border-white rounded-full bg-[#FDCDC8]"
+                    ></div>
+                    <div
+                      class="lg:w-[41px] lg:h-[41px] border-[3px] border-white rounded-full bg-[#CDC6EE]"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="lg:mt-[30px] flex items-end justify-between space-x-[15px]"
+          >
+            <div
+              class="bg-[#F0F0F0]/[0.7] lg:w-[50px] lg:h-[66px] lg:rounded-[60px]"
+            ></div>
+            <div
+              class="bg-[#F0F0F0]/[0.7] lg:w-[50px] lg:h-[91px] lg:rounded-[60px]"
+            ></div>
+            <div
+              class="bg-[#F0F0F0]/[0.7] lg:w-[50px] lg:h-[100px] lg:rounded-[60px]"
+            ></div>
+            <div
+              class="relative bg-[#DCFDC5] lg:w-[50px] lg:h-[139px] lg:rounded-[60px] before:content-['DESKTOP'] before:absolute before:origin-center before:translate-y-[70px] before:translate-x-[-15px] before:text-[#8AE102] before:text-[16px] before:font-bold before:tracking-[1px] before:rotate-[270deg]"
+            ></div>
+            <div
+              class="bg-[#F0F0F0]/[0.7] lg:w-[50px] lg:h-[100px] lg:rounded-[60px]"
+            ></div>
+            <div
+              class="bg-[#F0F0F0]/[0.7] lg:w-[50px] lg:h-[91px] lg:rounded-[60px]"
+            ></div>
+            <div
+              class="bg-[#F0F0F0]/[0.7] lg:w-[50px] lg:h-[66px] lg:rounded-[60px]"
+            ></div>
+          </div>
+        </div>
+        <div class="bg-[#FBFBFF] rounded-[8px] lg:p-[48px_50px] lg:flex-1">
+          <h3
+            class="text-[#260E5E] text-[24px] font-semibold lg:leading-[32px]"
+          >
+            Examine your competitors' ads
+          </h3>
+          <div class="bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mt-[40px]"></div>
+          <div class="bg-[#F0F0F0] rounded-[8px] h-[8px] lg:mt-[15px]"></div>
+          <div class="bg-[#F0F0F0] rounded-[8px] h-[8px] lg:mt-[7px]"></div>
+          <div class="bg-[#F0F0F0] rounded-[8px] h-[8px] lg:mt-[7px]"></div>
+          <div
+            class="text-center font-bold text-[#8AE102] bg-[#DCFDC5] rounded-[8px] py-[3px] lg:w-[59px] lg:h-[33px] lg:text-[18px] lg:mt-[15px]"
+          >
+            AD
+          </div>
+          <div class="mt-[15px] flex flex-wrap lg:space-x-[14px]">
+            <div class="w-full lg:w-auto">
+              <div class="bg-[#FEE7E5] rounded-[8px] lg:p-[4px_21px]">
+                Keyword1
+              </div>
+            </div>
+            <div class="w-full lg:w-auto">
+              <div class="bg-[#FEE7E5] rounded-[8px] lg:p-[4px_21px]">
+                Keyword2
+              </div>
+            </div>
+            <div class="w-full lg:w-[160px]">
+              <div
+                class="bg-[#FEE7E5] text-[#FDAFA6] text-[16px] font-semibold p-[4px_21px] rounded-[8px]"
+              >
+                +137 keywords
+              </div>
+            </div>
+          </div>
+          <ul class="flex flex-wrap justify-center space-x-[12px] mt-[25px]">
+            <li class="lg:w-auto">
+              <a
+                href="https://facebook.com"
+                rel="noreferrer"
+                target="_blank"
+                class="rounded-[8px] flex items-center justify-center lg:w-[63px] lg:h-[63px] bg-white shadow-sm"
+                title="Facebook"
+              >
+                <img src="./images/facebook.png" alt="Facebook" />
+              </a>
+            </li>
+            <li class="lg:w-auto">
+              <a
+                href="https://instagram.com"
+                rel="noreferrer"
+                target="_blank"
+                class="rounded-[8px] flex items-center justify-center lg:w-[63px] lg:h-[63px] bg-white shadow-sm"
+                title="instagram"
+              >
+                <img src="./images/instagram.png" alt="Facebook" />
+              </a>
+            </li>
+            <li class="lg:w-auto">
+              <a
+                href="https://google.com"
+                rel="noreferrer"
+                target="_blank"
+                class="rounded-[8px] flex items-center justify-center lg:w-[63px] lg:h-[63px] bg-white shadow-sm"
+                title="google"
+              >
+                <img src="./images/google.png" alt="Facebook" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="min-[1680px]:max-w-[1680px] mx-auto flex flex-wrap items-center lg:space-x-[22px] lg:mt-[160px]"
+      >
+        <div class="w-full lg:w-auto lg:flex-1">
+          <h4 class="text-[#140B46] text-[18px] font-bold">
+            2,500 + ORGANIZATIONS TRUST WASK
+          </h4>
+        </div>
+        <div class="w-full lg:w-auto">
+          <ul class="flex flex-wrap items-center lg:space-x-[93px]">
+            <li>
+              <img src="./images/reddit.png" alt="reddit" />
+            </li>
+            <li>
+              <img src="./images/asana.png" alt="asana" />
+            </li>
+            <li>
+              <img src="./images/monzo.png" alt="monzo" />
+            </li>
+            <li>
+              <img src="./images/imperfect.png" alt="imperfect" />
+            </li>
+            <li>
+              <img src="./images/vention.png" alt="vention" />
+            </li>
+            <li>
+              <img src="./images/slack.png" alt="slack" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="min-[1506px]:max-w-[1506px] mx-auto lg:mt-[160px]">
+        <article class="lg:max-w-[646px] mx-auto text-center">
+          <small class="block text-[16px] font-medium"
+            >COMPETITOR OVERVIEW</small
+          >
+          <h3 class="text-[36px] text-[#140B46] font-semibold">
+            Easier, one step ahead
+          </h3>
+          <p class="text-[#11093E] text-[20px] leading-[36px]">
+            You can create your advertising strategy more easily and always be
+            one step ahead of your competitors by identifying ads that your
+            competitors are successful in.
+          </p>
+        </article>
+        <div
+          class="bg-gradient-to-b from-[#E7E4F6]/[0.3] to-[#CDC6EE]/[0.3] lg:p-[78px_83px] lg:mt-[56px]"
+        >
+          <div
+            class="bg-gradient-to-b from-[#E7E4F6]/[0.64] to-[#C3B9F0]/[0.40] lg:py-[66px]"
+          >
+            <a href="/" class="block">
+              <svg
+                width="120"
+                height="33"
+                viewBox="0 0 120 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="mx-auto"
+              >
+                <g clip-path="url(#clip0_755_5139)">
+                  <path
+                    d="M35.679 32.0551C33.6255 31.9587 32.0854 31.3157 31.0908 29.3223C29.294 25.657 27.3047 22.0561 25.3795 18.423C25.2833 18.2301 25.2191 17.8764 24.9624 17.9086C24.7057 17.9086 24.6737 18.2622 24.5453 18.4552C22.556 22.249 20.5346 26.0107 18.5453 29.8367C18.0319 30.8334 17.2619 31.4443 16.2031 31.7658C14.9838 32.1194 13.7646 32.1516 12.5774 31.7658C11.5507 31.4443 10.7485 30.8655 10.2352 29.8367C8.82339 27.1038 7.31537 24.4031 5.93569 21.6703C4.84478 19.5161 5.61483 17.0083 7.66831 15.9152C9.52927 14.9507 11.679 15.5615 12.7378 17.362C13.1549 18.0693 13.4758 18.7767 13.8929 19.484C14.0533 19.7412 14.0854 20.2235 14.4384 20.1913C14.695 20.1913 14.7913 19.7734 14.9196 19.5161C16.171 17.1369 17.4223 14.7256 18.7057 12.3464C19.3154 11.1568 19.9571 9.96722 20.5667 8.77762C21.6897 6.65564 23.5186 5.78755 25.8929 6.17337C27.4651 6.43058 28.556 7.20221 29.294 8.64901C31.1229 12.2821 33.048 15.8509 34.941 19.484C35.0052 19.6126 35.1015 19.7734 35.1656 19.902C35.3902 20.3842 35.6148 20.3521 35.8394 19.8698C36.4491 18.6802 37.0587 17.4906 37.7004 16.301C40.2031 11.6391 42.6737 6.945 45.2084 2.28308C46.2993 0.257546 48.6737 -0.546236 50.7271 0.386151C52.7485 1.28639 53.5827 3.50481 52.5239 5.49819C48.1924 13.7289 43.8287 21.9275 39.4972 30.1261C38.695 31.7015 37.187 31.9587 35.679 32.0551Z"
+                    fill="#140B46"
+                  />
+                  <path
+                    d="M75.1125 22.7634C75.1125 24.6925 75.1125 26.2357 75.1125 27.8111C75.1125 29.4187 74.5992 30.8012 73.027 31.4442C71.4227 32.0872 69.9788 31.7979 68.8238 30.4797C68.4708 30.0939 68.2141 30.2546 67.8612 30.4475C63.1446 32.7946 58.5564 32.5695 54.2569 29.4508C50.0216 26.3643 48.3211 20.8021 49.7008 15.4329C50.9521 10.5459 55.1232 6.9128 60.1927 6.17332C67.3478 5.14448 73.5403 9.61351 74.8879 16.6868C75.305 18.8088 74.9842 20.9951 75.1125 22.7634ZM68.0858 18.6159C68.182 16.7511 67.2837 15.0149 65.4869 13.7289C62.9842 11.9284 59.2943 12.5714 57.4013 15.1114C55.412 17.7799 55.8291 21.8953 58.3639 23.8887C60.3211 25.4319 62.535 25.6891 64.7489 24.6281C67.0911 23.535 68.0858 21.5416 68.0858 18.6159Z"
+                    fill="#140B46"
+                  />
+                  <path
+                    d="M87.5936 31.9266C84.385 31.9587 81.6898 31.2835 79.2513 29.676C78.6738 29.2902 78.1604 28.8079 77.6792 28.3256C76.3316 26.911 76.3316 24.9176 77.6792 23.5029C78.9305 22.1847 81.2407 22.0561 82.5241 23.3743C84.4492 25.3677 86.7915 25.4963 89.262 25.0783C89.5187 25.0462 89.7754 24.9497 90 24.8211C90.4171 24.5961 90.7701 24.3067 90.7701 23.7923C90.738 23.31 90.353 23.1171 90 22.9564C88.6845 22.2812 87.2406 22.1526 85.8289 21.8632C84 21.5095 82.2353 20.963 80.6952 19.902C76.3957 17.0084 76.2995 10.9318 80.5669 7.97386C84.6417 5.1124 92.0535 5.33746 95.8396 9.54927C96.4492 10.2245 96.9947 10.9639 97.0909 11.9285C97.2193 13.2788 96.738 14.372 95.5829 15.0793C94.3636 15.8509 93.0802 15.7545 91.861 15.1114C91.3797 14.8542 91.0267 14.4363 90.6417 14.0826C89.3904 12.8609 86.6952 12.4429 85.1551 13.1824C84.7701 13.3431 84.4492 13.5682 84.4492 14.0505C84.4492 14.5006 84.8342 14.6613 85.1872 14.8221C86.5669 15.4651 88.0749 15.5616 89.5508 15.8831C91.3476 16.2689 93.0481 16.8476 94.5882 17.8765C98.7594 20.7701 98.8877 26.7824 94.8128 29.8046C92.5669 31.3478 90.0321 31.9909 87.5936 31.9266Z"
+                    fill="#140B46"
+                  />
+                  <path
+                    d="M106.428 13.3431C108.225 11.7355 109.861 10.2887 111.497 8.80977C112.203 8.16674 112.909 7.52372 113.647 6.88069C115.123 5.59464 117.08 5.62679 118.3 7.0093C119.519 8.35965 119.391 10.2566 117.915 11.5748C115.412 13.8254 112.877 16.0438 110.342 18.2622C109.54 18.9696 109.508 19.0017 110.342 19.6769C112.973 21.8953 115.604 24.1459 118.235 26.3644C119.23 27.2003 119.904 28.197 119.647 29.5795C119.166 32.0551 116.407 33.084 114.449 31.4443C112.011 29.4187 109.637 27.3611 107.198 25.3355C107.005 25.1748 106.845 24.8854 106.62 24.9819C106.364 25.0783 106.492 25.3998 106.492 25.6249C106.492 26.718 106.492 27.8112 106.492 28.9043C106.46 30.8012 105.112 32.1516 103.251 32.1837C101.391 32.1837 100.011 30.8334 100.011 28.9365C99.9788 22.3455 100.011 15.7544 100.011 9.16343C100.011 7.23436 101.358 5.884 103.219 5.884C105.112 5.884 106.46 7.23436 106.492 9.19558C106.46 10.5459 106.428 11.7998 106.428 13.3431Z"
+                    fill="#140B46"
+                  />
+                  <path
+                    d="M0 10.353C0 7.90952 2.02139 5.91614 4.45989 5.94829C6.80214 5.98044 8.82353 7.97385 8.82353 10.3209C8.85561 12.7644 6.80214 14.8221 4.36364 14.8221C1.9893 14.7899 0 12.7322 0 10.353Z"
+                    fill="#140B46"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_755_5139">
+                    <rect width="120" height="32.4728" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <div
+              class="lg:max-w-[696px] mx-auto bg-white p-[17px_31px] lg:mt-[54px]"
+            >
+              <div class="flex flex-wrap">
+                <div class="w-full lg:w-auto lg:flex-1 text-white">
+                  <ul>
+                    <li
+                      class="bg-[#AEA3E6] py-[10px] px-[15px] rounded-t-[6px] w-[95%]"
+                    >
+                      United States
+                    </li>
+                    <li
+                      class="bg-[#B6ABEC] py-[10px] px-[15px] rounded-b-[6px] w-[90%]"
+                    >
+                      United Kingdom
+                    </li>
+                    <li
+                      class="bg-[#BFB5F1] py-[10px] px-[15px] rounded-b-[6px] w-[85%]"
+                    >
+                      Australia
+                    </li>
+                    <li
+                      class="bg-[#C8BFF8] py-[10px] px-[15px] rounded-b-[6px] w-[80%]"
+                    >
+                      Canada
+                    </li>
+                    <li
+                      class="bg-[#D2C9FF] py-[10px] px-[15px] rounded-b-[6px] w-[75%]"
+                    >
+                      Germany
+                    </li>
+                    <li
+                      class="bg-[#DAD2FF] py-[10px] px-[15px] rounded-b-[6px] w-[70%]"
+                    >
+                      French
+                    </li>
+                    <li
+                      class="bg-[#E1DBFF] py-[10px] px-[15px] rounded-b-[6px] w-[65%]"
+                    >
+                      New Zeland
+                    </li>
+                    <li
+                      class="bg-[#E4DFFF] py-[10px] px-[15px] rounded-b-[6px] w-[60%]"
+                    >
+                      Italy
+                    </li>
+                  </ul>
+                </div>
+                <div class="w-full lg:w-auto">
+                  <canvas chart></canvas>
+                </div>
+              </div>
+            </div>
+            <h5
+              class="text-[30px] font-semibold text-[#140B46] text-center lg:mt-[54px]"
+            >
+              Make competitor easy
+            </h5>
+          </div>
+        </div>
+      </section>
+      <section
+        class="min-[1506px]:max-w-[1506px] mx-auto flex flex-wrap items-center lg:space-x-[130px] lg:mt-[160px]"
+      >
+        <article class="w-full lg:w-[646px]">
+          <h3 class="text-[#140B46] lg:text-[48px] lg:font-semibold">
+            Competitor Traffic Analysis
+          </h3>
+          <p class="font-light text-[20px] leading-[36px] mt-[28px]">
+            Thanks to the competitor analysis tool, you can see your
+            competitor's monthly traffic and traffic sources. Besides, you are
+            able to examine direct, search, referral, social, or paid traffic
+            and make detailed comments. At the same time, you can also see the
+            traffic received by your competitor's website in accordance with the
+            device distribution.
+          </p>
+        </article>
+        <div class="w-full lg:w-auto">
+          <img src="./images/banner.png" alt="" />
+        </div>
+      </section>
+      <section class="min-[1677px]:max-w-[1677px] mx-auto lg:mt-[160px]">
+        <article class="text-[#140B46] text-center mx-auto lg:max-w-[646px]">
+          <h3 class="font-semibold text-[36px]">Other features</h3>
+          <p class="text-[20px] leading-[36px] font-light">
+            Discover the newest features of Wask now. Create value by adding
+            performance to your business. Tap all the dots in your marketing
+            funnel!
+          </p>
+        </article>
+        <ul class="flex flex-wrap justify-between text-center lg:mt-[56px]">
+          <li class="lg:w-auto">
+            <div>
+              <img
+                src="./images/designer.png"
+                alt="Ad designer"
+                class="mx-auto"
+              />
+              <small class="text-[#737282] text-[20px] block mt-[16px]"
+                >Ad designer</small
+              >
+            </div>
+          </li>
+          <li class="lg:w-auto">
+            <div>
+              <img
+                src="./images/comment-manage.png"
+                alt="Comment manage"
+                class="mx-auto"
+              />
+              <small class="text-[#737282] text-[20px] block mt-[16px]"
+                >Comment manage</small
+              >
+            </div>
+          </li>
+          <li class="lg:w-auto">
+            <div>
+              <img
+                src="./images/reporting.png"
+                alt="Reporting"
+                class="mx-auto"
+              />
+              <small class="text-[#737282] text-[20px] block mt-[16px]"
+                >Reporting</small
+              >
+            </div>
+          </li>
+          <li class="lg:w-auto">
+            <div>
+              <img
+                src="./images/autopilot.png"
+                alt="Autopilot"
+                class="mx-auto"
+              />
+              <small class="text-[#737282] text-[20px] block mt-[16px]"
+                >Autopilot</small
+              >
+            </div>
+          </li>
+          <li class="lg:w-auto">
+            <div>
+              <img
+                src="./images/smart-optimize.png"
+                alt="Smart optimize"
+                class="mx-auto"
+              />
+              <small class="text-[#737282] text-[20px] block mt-[16px]"
+                >Smart optimize</small
+              >
+            </div>
+          </li>
+          <li class="lg:w-auto">
+            <div>
+              <img
+                src="./images/ad-publisher.png"
+                alt="Ad publisher"
+                class="mx-auto"
+              />
+              <small class="text-[#737282] text-[20px] block mt-[16px]"
+                >Ad publisher</small
+              >
+            </div>
+          </li>
+          <li class="lg:w-auto">
+            <div>
+              <img
+                src="./images/smart-advices.png"
+                alt="Smart advices"
+                class="mx-auto"
+              />
+              <small class="text-[#737282] text-[20px] block mt-[16px]"
+                >Smart advices</small
+              >
+            </div>
+          </li>
+          <li class="lg:w-auto">
+            <div>
+              <img
+                src="./images/ab-testing.png"
+                alt="A/B Testing"
+                class="mx-auto"
+              />
+              <small class="text-[#737282] text-[20px] block mt-[16px]"
+                >A/B Testing</small
+              >
+            </div>
+          </li>
+          <li class="lg:w-auto">
+            <div>
+              <img
+                src="./images/smart-audience.png"
+                alt="Smart audience"
+                class="mx-auto"
+              />
+              <small class="text-[#737282] text-[20px] block mt-[16px]"
+                >Smart audience</small
+              >
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="min-[1526px]:max-w-[1526px] mx-auto lg:mt-[160px]">
+      <section class="flex flex-wrap lg:py-[64px] border-b border-[#EAECF0]">
+        <div class="w-full lg:w-auto lg:flex-1">
+          <h2 class="lg:text-[30px] font-semibold">
+            Start your 15-day free trial
+          </h2>
+          <small class="text-[#667085] block mt-[16px] lg:text-[20px]"
+            >2,500+ Organizations trust Wask</small
+          >
+        </div>
+        <div class="w-full lg:w-auto">
+          <div class="flex flex-wrap space-x-[16px]">
+            <div class="lg:w-[145px]">
+              <button
+                class="transition duration-150 ease-out hover:ease-in border font-bold text-[20px] border-[#140B46] text-[#140B46] py-[12px] rounded-[4px] w-full hover:bg-[#140B46] hover:text-white"
+              >
+                Learn more
+              </button>
+            </div>
+            <div class="lg:w-[145px]">
+              <button
+                class="transition duration-150 ease-out hover:ease-in border border-[#140B46] bg-[#140B46] font-bold text-[20px] text-white py-[12px] rounded-[4px] w-full hover:bg-white hover:text-[#140B46] hover:border-[#140B46]"
+              >
+                Get started
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex flex-wrap lg:py-[64px] lg:space-x-[64px] border-b border-[#EAECF0]"
+      >
+        <div class="w-full lg:w-[437px]">
+          <a href="/">
+            <svg
+              width="120"
+              height="33"
+              viewBox="0 0 120 33"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_755_5139)">
+                <path
+                  d="M35.679 32.0551C33.6255 31.9587 32.0854 31.3157 31.0908 29.3223C29.294 25.657 27.3047 22.0561 25.3795 18.423C25.2833 18.2301 25.2191 17.8764 24.9624 17.9086C24.7057 17.9086 24.6737 18.2622 24.5453 18.4552C22.556 22.249 20.5346 26.0107 18.5453 29.8367C18.0319 30.8334 17.2619 31.4443 16.2031 31.7658C14.9838 32.1194 13.7646 32.1516 12.5774 31.7658C11.5507 31.4443 10.7485 30.8655 10.2352 29.8367C8.82339 27.1038 7.31537 24.4031 5.93569 21.6703C4.84478 19.5161 5.61483 17.0083 7.66831 15.9152C9.52927 14.9507 11.679 15.5615 12.7378 17.362C13.1549 18.0693 13.4758 18.7767 13.8929 19.484C14.0533 19.7412 14.0854 20.2235 14.4384 20.1913C14.695 20.1913 14.7913 19.7734 14.9196 19.5161C16.171 17.1369 17.4223 14.7256 18.7057 12.3464C19.3154 11.1568 19.9571 9.96722 20.5667 8.77762C21.6897 6.65564 23.5186 5.78755 25.8929 6.17337C27.4651 6.43058 28.556 7.20221 29.294 8.64901C31.1229 12.2821 33.048 15.8509 34.941 19.484C35.0052 19.6126 35.1015 19.7734 35.1656 19.902C35.3902 20.3842 35.6148 20.3521 35.8394 19.8698C36.4491 18.6802 37.0587 17.4906 37.7004 16.301C40.2031 11.6391 42.6737 6.945 45.2084 2.28308C46.2993 0.257546 48.6737 -0.546236 50.7271 0.386151C52.7485 1.28639 53.5827 3.50481 52.5239 5.49819C48.1924 13.7289 43.8287 21.9275 39.4972 30.1261C38.695 31.7015 37.187 31.9587 35.679 32.0551Z"
+                  fill="#140B46"
+                />
+                <path
+                  d="M75.1125 22.7634C75.1125 24.6925 75.1125 26.2357 75.1125 27.8111C75.1125 29.4187 74.5992 30.8012 73.027 31.4442C71.4227 32.0872 69.9788 31.7979 68.8238 30.4797C68.4708 30.0939 68.2141 30.2546 67.8612 30.4475C63.1446 32.7946 58.5564 32.5695 54.2569 29.4508C50.0216 26.3643 48.3211 20.8021 49.7008 15.4329C50.9521 10.5459 55.1232 6.9128 60.1927 6.17332C67.3478 5.14448 73.5403 9.61351 74.8879 16.6868C75.305 18.8088 74.9842 20.9951 75.1125 22.7634ZM68.0858 18.6159C68.182 16.7511 67.2837 15.0149 65.4869 13.7289C62.9842 11.9284 59.2943 12.5714 57.4013 15.1114C55.412 17.7799 55.8291 21.8953 58.3639 23.8887C60.3211 25.4319 62.535 25.6891 64.7489 24.6281C67.0911 23.535 68.0858 21.5416 68.0858 18.6159Z"
+                  fill="#140B46"
+                />
+                <path
+                  d="M87.5936 31.9266C84.385 31.9587 81.6898 31.2835 79.2513 29.676C78.6738 29.2902 78.1604 28.8079 77.6792 28.3256C76.3316 26.911 76.3316 24.9176 77.6792 23.5029C78.9305 22.1847 81.2407 22.0561 82.5241 23.3743C84.4492 25.3677 86.7915 25.4963 89.262 25.0783C89.5187 25.0462 89.7754 24.9497 90 24.8211C90.4171 24.5961 90.7701 24.3067 90.7701 23.7923C90.738 23.31 90.353 23.1171 90 22.9564C88.6845 22.2812 87.2406 22.1526 85.8289 21.8632C84 21.5095 82.2353 20.963 80.6952 19.902C76.3957 17.0084 76.2995 10.9318 80.5669 7.97386C84.6417 5.1124 92.0535 5.33746 95.8396 9.54927C96.4492 10.2245 96.9947 10.9639 97.0909 11.9285C97.2193 13.2788 96.738 14.372 95.5829 15.0793C94.3636 15.8509 93.0802 15.7545 91.861 15.1114C91.3797 14.8542 91.0267 14.4363 90.6417 14.0826C89.3904 12.8609 86.6952 12.4429 85.1551 13.1824C84.7701 13.3431 84.4492 13.5682 84.4492 14.0505C84.4492 14.5006 84.8342 14.6613 85.1872 14.8221C86.5669 15.4651 88.0749 15.5616 89.5508 15.8831C91.3476 16.2689 93.0481 16.8476 94.5882 17.8765C98.7594 20.7701 98.8877 26.7824 94.8128 29.8046C92.5669 31.3478 90.0321 31.9909 87.5936 31.9266Z"
+                  fill="#140B46"
+                />
+                <path
+                  d="M106.428 13.3431C108.225 11.7355 109.861 10.2887 111.497 8.80977C112.203 8.16674 112.909 7.52372 113.647 6.88069C115.123 5.59464 117.08 5.62679 118.3 7.0093C119.519 8.35965 119.391 10.2566 117.915 11.5748C115.412 13.8254 112.877 16.0438 110.342 18.2622C109.54 18.9696 109.508 19.0017 110.342 19.6769C112.973 21.8953 115.604 24.1459 118.235 26.3644C119.23 27.2003 119.904 28.197 119.647 29.5795C119.166 32.0551 116.407 33.084 114.449 31.4443C112.011 29.4187 109.637 27.3611 107.198 25.3355C107.005 25.1748 106.845 24.8854 106.62 24.9819C106.364 25.0783 106.492 25.3998 106.492 25.6249C106.492 26.718 106.492 27.8112 106.492 28.9043C106.46 30.8012 105.112 32.1516 103.251 32.1837C101.391 32.1837 100.011 30.8334 100.011 28.9365C99.9788 22.3455 100.011 15.7544 100.011 9.16343C100.011 7.23436 101.358 5.884 103.219 5.884C105.112 5.884 106.46 7.23436 106.492 9.19558C106.46 10.5459 106.428 11.7998 106.428 13.3431Z"
+                  fill="#140B46"
+                />
+                <path
+                  d="M0 10.353C0 7.90952 2.02139 5.91614 4.45989 5.94829C6.80214 5.98044 8.82353 7.97385 8.82353 10.3209C8.85561 12.7644 6.80214 14.8221 4.36364 14.8221C1.9893 14.7899 0 12.7322 0 10.353Z"
+                  fill="#140B46"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_755_5139">
+                  <rect width="120" height="32.4728" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <p class="text-[#667085] text-[16px] mt-[28px]">
+            Compare your competitors' website traffic or Google and Facebook ads
+            and much more with the WASK competitor analysis tool.
+          </p>
+        </div>
+        <div class="w-full lg:w-auto lg:flex-1">
+          <ul class="flex flex-wrap justify-between">
+            <li class="lg:w-auto">
+              <nav>
+                <strong class="text-[#98A2B3] block mb-[16px]"
+                  >Wask Inc.</strong
+                >
+                <ul class="flex flex-col space-y-[12px]">
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Pricing"
+                      >Pricing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Blog"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Features"
+                      >Features</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="E-Books"
+                      >E-Books</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="FAQ">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Help Center"
+                      >Help Center</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </li>
+            <li class="lg:w-auto">
+              <nav>
+                <strong class="text-[#98A2B3] block mb-[16px]">Company</strong>
+                <ul class="flex flex-col space-y-[12px]">
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="About us"
+                      >About us</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Job Notices"
+                      >Job Notices</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Road map"
+                      >Road map</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Job Notices"
+                      >Job Notices</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Contact"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </li>
+            <li class="lg:w-auto">
+              <nav>
+                <strong class="text-[#98A2B3] block mb-[16px]"
+                  >Free Tools</strong
+                >
+                <ul class="flex flex-col space-y-[12px]">
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Ad Designer"
+                      >Ad Designer</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#667085] block"
+                      title="Smart Audience"
+                      >Smart Audience</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#667085] block"
+                      title="Instagram Giveaway"
+                      >Instagram Giveaway</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#667085] block"
+                      title="Find Influencer"
+                      >Find Influencer</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </li>
+            <li class="lg:w-auto">
+              <nav>
+                <strong class="text-[#98A2B3] block mb-[16px]">Features</strong>
+                <ul class="flex flex-col space-y-[12px]">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#667085] block"
+                      title="Ad Publisher"
+                      >Ad Publisher</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#667085] block"
+                      title="Smart Optimize"
+                      >Smart Optimize</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#667085] block"
+                      title="Smart Advices"
+                      >Smart Advices</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-[#667085] block"
+                      title="Comment Manage"
+                      >Comment Manage</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="AutoPilot"
+                      >AutoPilot</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-[#667085] block" title="Reporting"
+                      >Reporting</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="flex flex-wrap py-[36px]">
+        <div class="w-full lg:flex-1">
+          <small class="block text-[#98A2B3] text-[16px]"
+            >© 2022 Wask Inc. All rights reserved.</small
+          >
+        </div>
+        <div class="lg:w-auto">
+          <ul class="flex flex-wrap space-x-[24px] items-center">
+            <li class="w-auto">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2234 0H1.77187C0.792187 0 0 0.773438 0 1.72969V22.2656C0 23.2219 0.792187 24 1.77187 24H22.2234C23.2031 24 24 23.2219 24 22.2703V1.72969C24 0.773438 23.2031 0 22.2234 0ZM7.12031 20.4516H3.55781V8.99531H7.12031V20.4516ZM5.33906 7.43438C4.19531 7.43438 3.27188 6.51094 3.27188 5.37187C3.27188 4.23281 4.19531 3.30937 5.33906 3.30937C6.47813 3.30937 7.40156 4.23281 7.40156 5.37187C7.40156 6.50625 6.47813 7.43438 5.33906 7.43438ZM20.4516 20.4516H16.8937V14.8828C16.8937 13.5562 16.8703 11.8453 15.0422 11.8453C13.1906 11.8453 12.9094 13.2937 12.9094 14.7891V20.4516H9.35625V8.99531H12.7687V10.5609H12.8156C13.2891 9.66094 14.4516 8.70938 16.1813 8.70938C19.7859 8.70938 20.4516 11.0813 20.4516 14.1656V20.4516Z"
+                  fill="#98A2B3"
+                />
+              </svg>
+            </li>
+            <li class="w-auto">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.3882 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z"
+                  fill="#98A2B3"
+                />
+              </svg>
+            </li>
+            <li class="w-auto">
+              <svg
+                width="24"
+                height="20"
+                viewBox="0 0 24 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.55016 19.7502C16.6045 19.7502 21.5583 12.2469 21.5583 5.74211C21.5583 5.53117 21.5536 5.31554 21.5442 5.1046C22.5079 4.40771 23.3395 3.5445 24 2.55554C23.1025 2.95484 22.1496 3.21563 21.1739 3.32898C22.2013 2.71315 22.9705 1.74572 23.3391 0.606011C22.3726 1.1788 21.3156 1.58286 20.2134 1.80085C19.4708 1.01181 18.489 0.48936 17.4197 0.314295C16.3504 0.13923 15.2532 0.321295 14.2977 0.832341C13.3423 1.34339 12.5818 2.15495 12.1338 3.14156C11.6859 4.12816 11.5754 5.23486 11.8195 6.29054C9.86249 6.19233 7.94794 5.68395 6.19998 4.79834C4.45203 3.91274 2.90969 2.66968 1.67297 1.14976C1.0444 2.23349 0.852057 3.51589 1.13503 4.73634C1.418 5.95678 2.15506 7.02369 3.19641 7.72023C2.41463 7.69541 1.64998 7.48492 0.965625 7.10617V7.1671C0.964925 8.30439 1.3581 9.40683 2.07831 10.287C2.79852 11.1672 3.80132 11.7708 4.91625 11.9952C4.19206 12.1934 3.43198 12.2222 2.69484 12.0796C3.00945 13.0577 3.62157 13.9131 4.44577 14.5266C5.26997 15.14 6.26512 15.4808 7.29234 15.5015C5.54842 16.8714 3.39417 17.6144 1.17656 17.6109C0.783287 17.6103 0.390399 17.5861 0 17.5387C2.25286 18.984 4.87353 19.7516 7.55016 19.7502Z"
+                  fill="#98A2B3"
+                />
+              </svg>
+            </li>
+            <li class="w-auto">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.24451 9.94111C2.37304 7.96233 3.96395 6.41157 5.94447 6.31345C8.81239 6.17136 12.9115 6 16 6C19.0885 6 23.1876 6.17136 26.0555 6.31345C28.0361 6.41157 29.627 7.96233 29.7555 9.94111C29.8786 11.8369 30 14.1697 30 16C30 17.8303 29.8786 20.1631 29.7555 22.0589C29.627 24.0377 28.0361 25.5884 26.0555 25.6866C23.1876 25.8286 19.0885 26 16 26C12.9115 26 8.81239 25.8286 5.94447 25.6866C3.96395 25.5884 2.37304 24.0377 2.24451 22.0589C2.12136 20.1631 2 17.8303 2 16C2 14.1697 2.12136 11.8369 2.24451 9.94111Z"
+                  fill="#98A2B3"
+                />
+                <path d="M13 12V20L21 16L13 12Z" fill="white" />
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script type="module" src="index.js" defer></script>
+  </body>
+</html>

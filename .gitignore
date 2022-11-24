@@ -1,0 +1,14 @@
+# editor
+.vs
+.idea
+
+# npm
+/node_modules
+yarn.lock
+package.lock.json
+
+# build
+/dist
+
+# parcel-cache
+.parcel-cache
