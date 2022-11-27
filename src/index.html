@@ -14,17 +14,18 @@
     <link href="./index.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="py-[28px]">
-      <div class="min-[1590px]:max-w-[1590px] mx-auto">
+    <header class="py-2 lg:py-[28px]">
+      <div class="min-[1590px]:max-w-[1590px] mx-auto px-2">
         <div class="flex flex-wrap items-center">
-          <div class="lg:w-auto">
-            <a href="/">
+          <div class="w-full mb-3 lg:mb-0 lg:w-auto">
+            <a href="/" class="block mx-auto">
               <svg
                 width="120"
                 height="33"
                 viewBox="0 0 120 33"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="block mx-auto"
               >
                 <g clip-path="url(#clip0_755_5139)">
                   <path
@@ -56,9 +57,9 @@
               </svg>
             </a>
           </div>
-          <div class="lg:flex-1 lg:ml-[70px]">
-            <nav>
-              <ul class="flex flex-wrap items-center lg:space-x-[20px]">
+          <div class="w-full lg:flex-1 lg:ml-[70px]">
+            <nav class="fixed top-0 -right-full bg-white h-full z-[1] p-4 lg:bg-transparent lg:static">
+              <ul class="flex flex-col lg:flex-row flex-wrap items-center space-y-4 lg:space-y-0 lg:space-x-[20px]">
                 <li class="lg:w-auto">
                   <a href="" class="text-[20px] font-medium text-[#140B46]"
                     >Pricing</a
@@ -82,18 +83,18 @@
               </ul>
             </nav>
           </div>
-          <div class="lg:w-auto">
-            <div class="flex flex-wrap lg:space-x-[20px]">
-              <div class="lg:w-[145px]">
+          <div class="flex-1 lg:flex-none lg:w-auto">
+            <div class="flex flex-wrap space-x-[20px]">
+              <div class="flex-1 lg:flex-none lg:w-[145px]">
                 <button
-                  class="transition duration-150 ease-out hover:ease-in border font-bold text-[20px] border-[#140B46] text-[#140B46] py-[12px] rounded-[4px] w-full hover:bg-[#140B46] hover:text-white"
+                  class="text-xs transition duration-150 ease-out hover:ease-in border font-bold lg:text-[20px] border-[#140B46] text-[#140B46] py-[12px] rounded-[4px] w-full hover:bg-[#140B46] hover:text-white"
                 >
                   Login
                 </button>
               </div>
-              <div class="lg:w-[145px]">
+              <div class="flex-1 lg:flex-none lg:w-[145px]">
                 <button
-                  class="transition duration-150 ease-out hover:ease-in border border-[#140B46] bg-[#140B46] font-bold text-[20px] text-white py-[12px] rounded-[4px] w-full hover:bg-white hover:text-[#140B46] hover:border-[#140B46]"
+                  class="text-xs transition duration-150 ease-out hover:ease-in border border-[#140B46] bg-[#140B46] font-bold lg:text-[20px] text-white py-[12px] rounded-[4px] w-full hover:bg-white hover:text-[#140B46] hover:border-[#140B46]"
                 >
                   Join
                 </button>
@@ -104,13 +105,13 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="p-2">
         <article
-          class="min-[1680px]:max-w-[1680px] lg:py-[65px] rounded-[8px] mx-auto bg-[#E7E4F6] text-center"
+          class="min-[1680px]:max-w-[1680px] lg:py-[65px] rounded-[8px] mx-auto bg-[#E7E4F6] text-center p-5"
         >
           <div class="lg:max-w-[783px] lg:mx-auto">
             <small
-              class="text-[18px] font-medium text-[#140B46] lg:mb-[30px] flex items-center justify-center space-x-2"
+              class="mb-3 text-xs lg:text-[18px] font-medium text-[#140B46] lg:mb-[30px] flex items-center justify-center space-x-2"
             >
               <svg
                 width="25"
@@ -131,18 +132,16 @@
               <span>Always stay one step ahead of your competitors</span>
             </small>
             <h1
-              class="lg:text-[60px] text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#140B46] to-[#5721D4]"
-            >
-              Competitor Analysis Tool
-            </h1>
+              class="text-sm mb-3 lg:leading-[72px] lg:text-[60px] text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#140B46] to-[#5721D4]"
+            >Competitor Analysis Tool</h1>
             <p
-              class="text-[#11093E] lg:text-[20px] lg:leading-[36px] lg:mb-[24px]"
+              class="text-xs mb-3 text-[#11093E] lg:text-[20px] lg:leading-[36px] lg:mb-[24px]"
             >
               Compare your competitors' website traffic or Google and Facebook
               ads and much more with the WASK competitor analysis tool.
             </p>
             <button
-              class="border border-[#140B46] bg-[#140B46] flex items-center space-x-2 justify-center font-bold text-[20px] text-white py-[12px] rounded-[4px] lg:w-[209px] mx-auto"
+              class="w-full text-xs border border-[#140B46] bg-[#140B46] flex items-center space-x-2 justify-center font-bold lg:text-[20px] text-white py-[12px] rounded-[4px] lg:w-[209px] mx-auto"
             >
               <span>Try For Free</span>
               <svg
@@ -165,19 +164,19 @@
         </article>
       </section>
       <section
-        class="min-[1680px]:max-w-[1680px] mx-auto flex flex-wrap lg:space-x-[24px] lg:mt-[64px]"
+        class="mt-10 p-2 min-[1680px]:max-w-[1680px] mx-auto flex flex-wrap lg:space-x-[24px] lg:mt-[64px]"
       >
-        <div class="bg-[#FBFBFF] rounded-[8px] lg:p-[48px_50px] lg:flex-1">
+        <div class="w-full lg:w-auto bg-[#FBFBFF] rounded-[8px] lg:p-[48px_50px] lg:flex-1">
           <h3
-            class="text-[#260E5E] text-[24px] font-semibold lg:leading-[32px]"
+            class="text-lg text-[#260E5E] lg:text-[24px] font-semibold lg:leading-[32px]"
           >
             Monthly traffic and traffic sources
           </h3>
           <div
-            class="bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mx-[15px] lg:mt-[40px]"
+            class="hidden lg:block bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mx-[15px] lg:mt-[40px]"
           ></div>
           <div
-            class="mt-[20px] flex flex-wrap items-center justify-between text-[18px] border-[2px] border-[#B3FC72] bg-[#DCFDC5] rounded-[8px] text-[#140B46] lg:p-[10px_33px]"
+            class="text-xs mt-3 p-2 lg:mt-[20px] flex flex-wrap items-center justify-between lg:text-[18px] border-[2px] border-[#B3FC72] bg-[#DCFDC5] rounded-[8px] text-[#140B46] lg:p-[10px_33px]"
           >
             <span>Direct</span>
             <div>
@@ -190,13 +189,13 @@
             </div>
           </div>
           <div
-            class="bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mx-[15px] lg:mt-[20px]"
+            class="hidden lg:block bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mx-[15px] lg:mt-[20px]"
           ></div>
           <div
-            class="bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mx-[15px] lg:mt-[20px]"
+            class="hidden lg:block bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mx-[15px] lg:mt-[20px]"
           ></div>
           <div
-            class="mt-[20px] flex flex-wrap items-center justify-between text-[18px] border-[2px] border-[#FDAFA6] bg-[#FEE7E5] rounded-[8px] text-[#140B46] lg:p-[10px_33px]"
+            class="text-xs mt-3 p-2 lg:mt-[20px] flex flex-wrap items-center justify-between text-[18px] border-[2px] border-[#FDAFA6] bg-[#FEE7E5] rounded-[8px] text-[#140B46] lg:p-[10px_33px]"
           >
             <span>Social</span>
             <div>
@@ -209,16 +208,16 @@
             </div>
           </div>
         </div>
-        <div class="bg-[#FBFBFF] rounded-[8px] lg:p-[48px_50px] lg:w-auto">
+        <div class="mt-3 w-full bg-[#FBFBFF] rounded-[8px] lg:p-[48px_50px] lg:w-auto lg:mt-0">
           <h3
-            class="text-[#260E5E] text-[24px] font-semibold lg:leading-[32px]"
+            class="text-sm text-[#260E5E] lg:text-[24px] font-semibold lg:leading-[32px]"
           >
             Filter by device and location
           </h3>
           <div class="flex flex-wrap lg:mt-[40px] lg:space-x-[32px]">
-            <div class="relative w-full lg:w-[141px]">
+            <div class="relative flex-1 lg:flex-none lg:w-[141px]">
               <div
-                class="flex items-center space-x-[12px] pt-[28px] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-[20px] before:rounded-[8px] before:bg-[#F1EEFF]"
+                class="mt-3 flex items-center space-x-[12px] lg:pt-[28px] before:hidden lg:before:block before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-[20px] before:rounded-[8px] before:bg-[#F1EEFF]"
               >
                 <strong class="lg:text-[36px] font-bold">37 %</strong>
                 <svg
@@ -239,9 +238,9 @@
                 </svg>
               </div>
             </div>
-            <div class="relative w-full lg:flex-1 lg:w-auto">
+            <div class="relative flex-1">
               <div
-                class="flex items-center justify-between space-x-[12px] pt-[28px] before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-[20px] before:rounded-[8px] before:bg-[#F1EEFF]"
+                class="flex items-center justify-between space-x-[12px] mt-3 lg:mt-0 lg:pt-[28px] before:hidden lg:before:block before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-[20px] before:rounded-[8px] before:bg-[#F1EEFF]"
               >
                 <strong class="lg:text-[36px] font-bold"
                   >+240
@@ -267,7 +266,7 @@
             </div>
           </div>
           <div
-            class="lg:mt-[30px] flex items-end justify-between space-x-[15px]"
+            class="lg:mt-[30px] flex items-end justify-between lg:space-x-[15px]"
           >
             <div
               class="bg-[#F0F0F0]/[0.7] lg:w-[50px] lg:h-[66px] lg:rounded-[60px]"
@@ -279,7 +278,7 @@
               class="bg-[#F0F0F0]/[0.7] lg:w-[50px] lg:h-[100px] lg:rounded-[60px]"
             ></div>
             <div
-              class="relative bg-[#DCFDC5] lg:w-[50px] lg:h-[139px] lg:rounded-[60px] before:content-['DESKTOP'] before:absolute before:origin-center before:translate-y-[70px] before:translate-x-[-15px] before:text-[#8AE102] before:text-[16px] before:font-bold before:tracking-[1px] before:rotate-[270deg]"
+              class="w-auto p-2 lg:p-0 before:mx-auto relative bg-[#DCFDC5] lg:w-[50px] lg:h-[139px] lg:rounded-[60px] before:content-['DESKTOP'] lg:before:absolute lg:before:origin-center before:translate-y-[70px] lg:before:translate-x-[-15px] before:text-[#8AE102] lg:before:text-[16px] before:font-bold before:tracking-[1px] lg:before:rotate-[270deg]"
             ></div>
             <div
               class="bg-[#F0F0F0]/[0.7] lg:w-[50px] lg:h-[100px] lg:rounded-[60px]"
@@ -292,33 +291,33 @@
             ></div>
           </div>
         </div>
-        <div class="bg-[#FBFBFF] rounded-[8px] lg:p-[48px_50px] lg:flex-1">
+        <div class="w-full bg-[#FBFBFF] rounded-[8px] lg:p-[48px_50px] lg:flex-1 lg:w-auto">
           <h3
-            class="text-[#260E5E] text-[24px] font-semibold lg:leading-[32px]"
+            class="text-[#260E5E] text-lg lg:text-[24px] font-semibold lg:leading-[32px]"
           >
             Examine your competitors' ads
           </h3>
-          <div class="bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mt-[40px]"></div>
-          <div class="bg-[#F0F0F0] rounded-[8px] h-[8px] lg:mt-[15px]"></div>
-          <div class="bg-[#F0F0F0] rounded-[8px] h-[8px] lg:mt-[7px]"></div>
-          <div class="bg-[#F0F0F0] rounded-[8px] h-[8px] lg:mt-[7px]"></div>
+          <div class="hidden lg:block bg-[#F1EEFF] rounded-[8px] h-[20px] lg:mt-[40px]"></div>
+          <div class="hidden lg:block bg-[#F0F0F0] rounded-[8px] h-[8px] lg:mt-[15px]"></div>
+          <div class="hidden lg:block bg-[#F0F0F0] rounded-[8px] h-[8px] lg:mt-[7px]"></div>
+          <div class="hidden lg:block bg-[#F0F0F0] rounded-[8px] h-[8px] lg:mt-[7px]"></div>
           <div
-            class="text-center font-bold text-[#8AE102] bg-[#DCFDC5] rounded-[8px] py-[3px] lg:w-[59px] lg:h-[33px] lg:text-[18px] lg:mt-[15px]"
+            class="inline-block p-2 lg:p-0 lg:block text-xs text-center font-bold text-[#8AE102] bg-[#DCFDC5] lg:rounded-[8px] py-[3px] lg:w-[59px] lg:h-[33px] lg:text-[18px] lg:mt-[15px]"
           >
             AD
           </div>
           <div class="mt-[15px] flex flex-wrap lg:space-x-[14px]">
-            <div class="w-full lg:w-auto">
-              <div class="bg-[#FEE7E5] rounded-[8px] lg:p-[4px_21px]">
+            <div class="flex-1 lg:flex-none lg:w-auto">
+              <div class="p-4 bg-[#FEE7E5] rounded-[8px] lg:p-[4px_21px]">
                 Keyword1
               </div>
             </div>
-            <div class="w-full lg:w-auto">
-              <div class="bg-[#FEE7E5] rounded-[8px] lg:p-[4px_21px]">
+            <div class="flex-1 lg:flex-none ml-3 lg:ml-0 lg:w-auto">
+              <div class="p-4 bg-[#FEE7E5] rounded-[8px] lg:p-[4px_21px]">
                 Keyword2
               </div>
             </div>
-            <div class="w-full lg:w-[160px]">
+            <div class="mt-3 lg:mt-0 w-full lg:w-[160px]">
               <div
                 class="bg-[#FEE7E5] text-[#FDAFA6] text-[16px] font-semibold p-[4px_21px] rounded-[8px]"
               >
@@ -364,29 +363,29 @@
         </div>
       </section>
       <section
-        class="min-[1680px]:max-w-[1680px] mx-auto flex flex-wrap items-center lg:space-x-[22px] lg:mt-[160px]"
+        class="min-[1680px]:max-w-[1680px] mx-auto flex flex-wrap items-center lg:space-x-[22px] lg:mt-[160px] p-2"
       >
         <div class="w-full lg:w-auto lg:flex-1">
           <h4 class="text-[#140B46] text-[18px] font-bold">
             2,500 + ORGANIZATIONS TRUST WASK
           </h4>
         </div>
-        <div class="w-full lg:w-auto">
-          <ul class="flex flex-wrap items-center lg:space-x-[93px]">
+        <div class="mt-5 w-full lg:mt-0 lg:w-auto">
+          <ul class="grid grid-cols-2 items-center gap-4 lg:flex lg:flex-wrap lg:space-x-[93px]">
             <li>
-              <img src="./images/reddit.png" alt="reddit" />
+              <img src="./images/reddit.png" alt="reddit" class="mx-auto" />
             </li>
             <li>
-              <img src="./images/asana.png" alt="asana" />
+              <img src="./images/asana.png" alt="asana" class="mx-auto" />
             </li>
             <li>
-              <img src="./images/monzo.png" alt="monzo" />
+              <img src="./images/monzo.png" alt="monzo" class="mx-auto" />
             </li>
             <li>
-              <img src="./images/imperfect.png" alt="imperfect" />
+              <img src="./images/imperfect.png" alt="imperfect" class="mx-auto" />
             </li>
             <li>
-              <img src="./images/vention.png" alt="vention" />
+              <img src="./images/vention.png" alt="vention" class="mx-auto" />
             </li>
             <li>
               <img src="./images/slack.png" alt="slack" />
@@ -394,7 +393,7 @@
           </ul>
         </div>
       </section>
-      <section class="min-[1506px]:max-w-[1506px] mx-auto lg:mt-[160px]">
+      <section class="min-[1506px]:max-w-[1506px] mx-auto mt-5 p-2 lg:mt-[160px]">
         <article class="lg:max-w-[646px] mx-auto text-center">
           <small class="block text-[16px] font-medium"
             >COMPETITOR OVERVIEW</small
@@ -409,10 +408,10 @@
           </p>
         </article>
         <div
-          class="bg-gradient-to-b from-[#E7E4F6]/[0.3] to-[#CDC6EE]/[0.3] lg:p-[78px_83px] lg:mt-[56px]"
+          class="lg:bg-gradient-to-b lg:from-[#E7E4F6]/[0.3] lg:to-[#CDC6EE]/[0.3] lg:p-[78px_83px] lg:mt-[56px]"
         >
           <div
-            class="bg-gradient-to-b from-[#E7E4F6]/[0.64] to-[#C3B9F0]/[0.40] lg:py-[66px]"
+            class="mt-5 lg:mt-0 lg:bg-gradient-to-b lg:from-[#E7E4F6]/[0.64] lg:to-[#C3B9F0]/[0.40] lg:py-[66px]"
           >
             <a href="/" class="block">
               <svg
@@ -453,7 +452,7 @@
               </svg>
             </a>
             <div
-              class="lg:max-w-[696px] mx-auto bg-white p-[17px_31px] lg:mt-[54px]"
+              class="mt-5 lg:max-w-[696px] mx-auto bg-white lg:p-[17px_31px] lg:mt-[54px]"
             >
               <div class="flex flex-wrap">
                 <div class="w-full lg:w-auto lg:flex-1 text-white">
@@ -500,7 +499,7 @@
                     </li>
                   </ul>
                 </div>
-                <div class="w-full lg:w-auto">
+                <div class="mt-5 lg:mt-0 w-full lg:w-auto">
                   <canvas chart></canvas>
                 </div>
               </div>
@@ -514,9 +513,9 @@
         </div>
       </section>
       <section
-        class="min-[1506px]:max-w-[1506px] mx-auto flex flex-wrap items-center lg:space-x-[130px] lg:mt-[160px]"
+        class="min-[1506px]:max-w-[1506px] mx-auto flex flex-wrap items-center p-2 lg:space-x-[130px] lg:mt-[160px]"
       >
-        <article class="w-full lg:w-[646px]">
+        <article class="w-full lg:w-[646px] text-center lg:text-left">
           <h3 class="text-[#140B46] lg:text-[48px] lg:font-semibold">
             Competitor Traffic Analysis
           </h3>
@@ -529,11 +528,11 @@
             device distribution.
           </p>
         </article>
-        <div class="w-full lg:w-auto">
+        <div class="mt-5 lg:mt-0 w-full lg:flex-1">
           <img src="./images/banner.png" alt="" />
         </div>
       </section>
-      <section class="min-[1677px]:max-w-[1677px] mx-auto lg:mt-[160px]">
+      <section class="mt-5 p-2 min-[1677px]:max-w-[1677px] mx-auto lg:mt-[160px]">
         <article class="text-[#140B46] text-center mx-auto lg:max-w-[646px]">
           <h3 class="font-semibold text-[36px]">Other features</h3>
           <p class="text-[20px] leading-[36px] font-light">
@@ -542,7 +541,7 @@
             funnel!
           </p>
         </article>
-        <ul class="flex flex-wrap justify-between text-center lg:mt-[56px]">
+        <ul class="grid grid-cols-2 gap-4 mt-5 lg:gap-0 lg:flex lg:flex-wrap lg:justify-between text-center lg:mt-[56px]">
           <li class="lg:w-auto">
             <div>
               <img
@@ -654,8 +653,8 @@
         </ul>
       </section>
     </main>
-    <footer class="min-[1526px]:max-w-[1526px] mx-auto lg:mt-[160px]">
-      <section class="flex flex-wrap lg:py-[64px] border-b border-[#EAECF0]">
+    <footer class="min-[1526px]:max-w-[1526px] p-2 mx-auto lg:mt-[160px]">
+      <section class="py-5 text-center lg:text-left flex flex-wrap lg:py-[64px] border-b border-[#EAECF0]">
         <div class="w-full lg:w-auto lg:flex-1">
           <h2 class="lg:text-[30px] font-semibold">
             Start your 15-day free trial
@@ -664,16 +663,16 @@
             >2,500+ Organizations trust Wask</small
           >
         </div>
-        <div class="w-full lg:w-auto">
+        <div class="mt-5 lg:mt-0 w-full lg:w-auto">
           <div class="flex flex-wrap space-x-[16px]">
-            <div class="lg:w-[145px]">
+            <div class="flex-1 lg:flex-none lg:w-[145px]">
               <button
                 class="transition duration-150 ease-out hover:ease-in border font-bold text-[20px] border-[#140B46] text-[#140B46] py-[12px] rounded-[4px] w-full hover:bg-[#140B46] hover:text-white"
               >
                 Learn more
               </button>
             </div>
-            <div class="lg:w-[145px]">
+            <div class="flex-1 ml-3 lg:ml-0 lg:flex-none lg:w-[145px]">
               <button
                 class="transition duration-150 ease-out hover:ease-in border border-[#140B46] bg-[#140B46] font-bold text-[20px] text-white py-[12px] rounded-[4px] w-full hover:bg-white hover:text-[#140B46] hover:border-[#140B46]"
               >
@@ -684,9 +683,9 @@
         </div>
       </section>
       <section
-        class="flex flex-wrap lg:py-[64px] lg:space-x-[64px] border-b border-[#EAECF0]"
+        class="flex flex-wrap py-5 lg:py-[64px] lg:space-x-[64px]"
       >
-        <div class="w-full lg:w-[437px]">
+        <div class="text-center lg:text-left w-full lg:w-[437px]">
           <a href="/">
             <svg
               width="120"
@@ -694,6 +693,7 @@
               viewBox="0 0 120 33"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              class="mx-auto lg:mx-0"
             >
               <g clip-path="url(#clip0_755_5139)">
                 <path
@@ -729,9 +729,9 @@
             and much more with the WASK competitor analysis tool.
           </p>
         </div>
-        <div class="w-full lg:w-auto lg:flex-1">
-          <ul class="flex flex-wrap justify-between">
-            <li class="lg:w-auto">
+        <div class="w-full mt-5 lg:mt-0 lg:w-auto lg:flex-1">
+          <ul class="text-center lg:text-left flex flex-wrap justify-between">
+            <li class="w-full lg:w-auto">
               <nav>
                 <strong class="text-[#98A2B3] block mb-[16px]"
                   >Wask Inc.</strong
@@ -768,7 +768,7 @@
                 </ul>
               </nav>
             </li>
-            <li class="lg:w-auto">
+            <li class="mt-5 lg:mt-0 w-full lg:w-auto">
               <nav>
                 <strong class="text-[#98A2B3] block mb-[16px]">Company</strong>
                 <ul class="flex flex-col space-y-[12px]">
@@ -800,7 +800,7 @@
                 </ul>
               </nav>
             </li>
-            <li class="lg:w-auto">
+            <li class="mt-5 lg:mt-0 w-full lg:w-auto">
               <nav>
                 <strong class="text-[#98A2B3] block mb-[16px]"
                   >Free Tools</strong
@@ -838,7 +838,7 @@
                 </ul>
               </nav>
             </li>
-            <li class="lg:w-auto">
+            <li class="mt-5 lg:mt-0 w-full lg:w-auto">
               <nav>
                 <strong class="text-[#98A2B3] block mb-[16px]">Features</strong>
                 <ul class="flex flex-col space-y-[12px]">
@@ -890,14 +890,14 @@
           </ul>
         </div>
       </section>
-      <section class="flex flex-wrap py-[36px]">
-        <div class="w-full lg:flex-1">
-          <small class="block text-[#98A2B3] text-[16px]"
+      <section class="mt-5 flex flex-wrap py-5 lg:py-[36px] border-t border-[#EAECF0]">
+        <div class="text-center lg:text-left w-full lg:flex-1">
+          <small class="block text-[#98A2B3] text-sm lg:text-[16px]"
             >© 2022 Wask Inc. All rights reserved.</small
           >
         </div>
-        <div class="lg:w-auto">
-          <ul class="flex flex-wrap space-x-[24px] items-center">
+        <div class="w-full mt-5 lg:mt-0 lg:w-auto">
+          <ul class="flex flex-wrap justify-center lg:justify-start space-x-[24px] items-center">
             <li class="w-auto">
               <svg
                 width="24"

@@ -1,10 +1,11 @@
 {
   "name": "wask",
   "version": "1.0.0",
-  "main": "src/index.js",
   "license": "MIT",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "parcel": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
